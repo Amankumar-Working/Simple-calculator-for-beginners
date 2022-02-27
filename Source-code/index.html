@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="./main-style.css">
+    <script src="./main-script.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1 class="heading">Calculator</h1>
+            <p>HTML, CSS, and JavaScript</p>
+        </div>
+
+        <div class="app-border">
+            <div class="app-contents">
+                <table class="app">
+                    <tr>
+                        <td colspan="5">
+                            <p id="result">_</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"><input id="input" type="text" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" id="seven" onclick="pressedNum(7)">7</button></td>
+                        <td><button type="button" id="eight" onclick="pressedNum(8)">8</button></td>
+                        <td><button type="button" id="nine" onclick="pressedNum(9)">9</button></td>
+                        <td><button type="button" id="clear" onclick="pressedClear()">Clear</button></td>
+                        <td><button type="button" id="reset" onclick="pressedReset()">Reset</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" id="four" onclick="pressedNum(4)">4</button></td>
+                        <td><button type="button" id="five" onclick="pressedNum(5)">5</button></td>
+                        <td><button type="button" id="six" onclick="pressedNum(6)">6</button></td>
+                        <td><button type="button" id="multiply" onclick="pressedMultiply()">&times;</button></td>
+                        <td><button type="button" id="divide" onclick="pressedDivide()">&divide;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" id="one" onclick="pressedNum(1)">1</button></td>
+                        <td><button type="button" id="two" onclick="pressedNum(2)">2</button></td>
+                        <td><button type="button" id="three" onclick="pressedNum(3)">3</button></td>
+                        <td><button type="button" id="plus" onclick="pressedAdd()">&plus;</button></td>
+                        <td><button type="button" id="minus" onclick="pressedMinus()">&minus;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" id="zero" onclick="pressedNum(0)">0</button></td>
+                        <td><button type="button" id="decimal-point" onclick="pressedPeriod()">.</button></td>
+                        <td><button type="button" id="back" onclick="pressedBack()">&lt;</button></td>
+                        <td colspan="2"><button type="button" id="equals" onclick="pressedEquals()">&equals;</button>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+</body>
+
+</html>

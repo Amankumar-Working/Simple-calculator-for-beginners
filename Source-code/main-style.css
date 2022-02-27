@@ -1,0 +1,92 @@
+body {
+    color: #F1E3E4;
+    background: #12022a;
+    background: linear-gradient(90deg, rgba(18,2,42,1) 0%, rgba(24,0,47,1) 14%, rgba(28,0,57,1) 31%, rgba(33,0,66,1) 54%, rgba(31,2,60,1) 83%, rgba(18,2,42,1) 100%);
+    
+    text-align: center;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.heading {
+    padding-bottom: 32px;
+
+    box-shadow:
+        0px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0px 12.5px 10px rgba(0, 0, 0, 0.035),
+        0px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0px 100px 80px rgba(0, 0, 0, 0.07);  
+}
+
+.app-border {
+    width: fit-content;
+    height: fit-content;
+
+    padding: 8px;
+
+    border-radius: 8px;
+
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+
+    margin: auto;
+}
+   
+.app-contents { 
+    padding: 2px;
+    border-radius: 4px;
+    background: #12022a;
+}
+
+.app {
+    text-align: center;
+}
+
+#result {
+    text-align: left;
+    
+    padding: 8px;
+    
+    font-size: larger;
+}
+
+#input {
+    padding: 4px;
+    margin: 4px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+    color: #F2F2F2;
+
+    width: 100%;
+
+    padding: 4px;
+
+    border-radius: 2px;
+    border-color: #2F066D;
+    border-style: solid;
+    border-width: 1px;
+
+    background: linear-gradient(214deg, rgba(18,2,42,1) 0%, rgba(35,1,87,1) 34%, rgba(43,11,92,1) 80%, rgba(46,30,69,1) 100%);
+}
+
+button:hover {
+    background: #12022a;
+}
+
+button:disabled,
+button[disabled] {
+    color: rgb(78, 75, 75);
+    border-color: rgb(73, 72, 72);
+    background: #212222c5;
+}
+
+#reset {
+    background: rgb(60,9,135);
+    background: linear-gradient(214deg, rgba(60,9,135,1) 0%, rgba(72,8,171,1) 34%, rgba(65,11,147,1) 80%, rgba(64,6,147,1) 100%);
+}
